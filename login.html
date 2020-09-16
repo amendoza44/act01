@@ -12,9 +12,39 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <title>Ejericio 01</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
   </head>
   <body>
+    <section class="main-section container-fluid">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <section class="main-login-container card">
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </section>
     <!--Bootstrapt-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
